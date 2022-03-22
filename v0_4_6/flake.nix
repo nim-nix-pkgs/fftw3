@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fftw3-v0_4_6.flake = false;
+  inputs.src-fftw3-v0_4_6.ref   = "refs/tags/v0.4.6";
   inputs.src-fftw3-v0_4_6.owner = "SciNim";
-  inputs.src-fftw3-v0_4_6.ref   = "v0_4_6";
   inputs.src-fftw3-v0_4_6.repo  = "nimfftw3";
   inputs.src-fftw3-v0_4_6.type  = "github";
   

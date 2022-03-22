@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fftw3-master.flake = false;
+  inputs.src-fftw3-master.ref   = "refs/heads/master";
   inputs.src-fftw3-master.owner = "SciNim";
-  inputs.src-fftw3-master.ref   = "master";
   inputs.src-fftw3-master.repo  = "nimfftw3";
   inputs.src-fftw3-master.type  = "github";
   
