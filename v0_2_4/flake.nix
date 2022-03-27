@@ -11,6 +11,7 @@
   inputs.src-fftw3-v0_2_4.ref   = "refs/tags/v0.2.4";
   inputs.src-fftw3-v0_2_4.owner = "SciNim";
   inputs.src-fftw3-v0_2_4.repo  = "nimfftw3";
+  inputs.src-fftw3-v0_2_4.dir   = "";
   inputs.src-fftw3-v0_2_4.type  = "github";
   
   inputs."arraymancer".owner = "nim-nix-pkgs";
