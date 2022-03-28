@@ -11,7 +11,6 @@
   inputs.src-fftw3-master.ref   = "refs/heads/master";
   inputs.src-fftw3-master.owner = "SciNim";
   inputs.src-fftw3-master.repo  = "nimfftw3";
-  inputs.src-fftw3-master.dir   = "";
   inputs.src-fftw3-master.type  = "github";
   
   inputs."arraymancer".owner = "nim-nix-pkgs";
